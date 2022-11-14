@@ -1,7 +1,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -20,13 +20,13 @@ function App() {
     <div className="main-web-view">
       <Header/>
       <Router>  
-          <Switch>
+          <Routes >
             <Route path="/portfolio" component={Portfolio}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/technologies" component={Technologies}/>
             <Route path="/privacypolicy" component={PrivavyPolicy}/>              
             <Route exact path="/" component={Home}/>
-          </Switch>
+          </Routes >
         
       </Router>
 
