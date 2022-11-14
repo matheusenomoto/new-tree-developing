@@ -1,4 +1,5 @@
-//images as consts
+//images as const
+
 //company
 import treedeveloping from './treedeveloping-logo.png';
 //icons social media
@@ -18,7 +19,7 @@ import businessdevelopmentsolutions from './businessdevelopmentsolutions.jpg';
 import homebusiness from './image01.webp';
 import htmlimage from './htmlimage.jpg';
 
-export {
+export{
     treedeveloping,
     appstoreicon,
     facebookicon,
@@ -29,7 +30,8 @@ export {
     businessdevelopmentsolutions,
     technologies,
     homebusiness,
-    htmlimage};
+    htmlimage
+};
 
 
 

@@ -1,6 +1,6 @@
 
 import './contact.css';
-import whatsappicon from '../img/appimages';
+import {whatsappicon} from '../img/appimages';
 import {contactNumber, contactEmail, companyLocal} from '../constants/texts'
 import {whatsappLink} from '../constants/paths'
 

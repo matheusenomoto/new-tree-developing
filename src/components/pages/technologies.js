@@ -1,6 +1,6 @@
 import './technologies.css'
 import React from "react";
-import technologies from '../img/appimages';
+import {technologies} from '../img/appimages';
 
 
 function Technologies(){

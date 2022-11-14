@@ -3,11 +3,11 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 //partials
 import Header from './components/partials/header';
 import Footer from './components/partials/footer';
+import Navbar from './components/partials/navbar';
 //pages
 import Portfolio from './components/pages/portfolio';
 import Contact from './components/pages/contact';
@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="main-web-view">
       <Header/>
+      <Navbar/>
       <Router>  
           <Routes >
             <Route path="/portfolio" component={Portfolio}/>
