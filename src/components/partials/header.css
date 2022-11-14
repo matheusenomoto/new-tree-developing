@@ -1,0 +1,52 @@
+.main-header {
+    background-color: black;
+}
+
+.main-header-top {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.main-header-logo-link {
+    width: 5%;
+    height: auto;
+    background-color: black;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+.main-header-logo {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.main-header-company-name {
+    font-family: 'Agency FB', arial;
+    position: relative;
+    width: 85%;
+    height: auto;
+    text-align: center;
+    font-size: 300%;
+    color: #44AD9A;
+    background-color: black;
+}
+
+.social-midia-link {
+    max-width: 10%;
+    height: auto;
+    position: absolute;
+    right: 10%;
+    margin-top: 4%;
+}
+
+.social-midia-link-icon {
+    width: 25%;
+    height: auto;
+    margin-right: 5%;
+    border-radius: 3px;
+}

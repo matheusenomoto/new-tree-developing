@@ -1,9 +1,36 @@
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+//partials
+import Header from './components/partials/header';
+import Footer from './components/partials/footer';
+//pages
+import Portfolio from './components/pages/portfolio';
+import Contact from './components/pages/contact';
+import Technologies from './components/pages/technologies';
+import PrivavyPolicy from './components/pages/privacypolicy';
+import Home from './components/pages/home';
 
 function App() {
   return (
     <div className="main-web-view">
-      <text className='company-name'>New Tree Developing</text>
+      <Header/>
+      <Router>  
+          <Switch>
+            <Route path="/portfolio" component={Portfolio}/>
+            <Route path="/contact" component={Contact}/>
+            <Route path="/technologies" component={Technologies}/>
+            <Route path="/privacypolicy" component={PrivavyPolicy}/>              
+            <Route exact path="/" component={Home}/>
+          </Switch>
+        
+      </Router>
+
+      <Footer/>
     </div>
   );
 }
