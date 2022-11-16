@@ -1,0 +1,47 @@
+.main-home{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color:white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.main-home h2{
+    text-align: center;
+}
+.main-home span{
+    color:#44AD9A;
+}
+.single-introduction{
+    flex-direction: row;
+    text-align: center;
+    height: auto;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+.single-introduction-img{
+    border-radius: 3px;
+    opacity: 0.8;
+    width: 40%;
+    max-width: 40%;
+    height: auto;
+    max-height: 40%;
+}
+
+.single-introduction-text{
+    text-align: center;
+}
+.single-introduction-text p{
+    height: auto;
+    vertical-align:center;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 150%;
+    margin-right: 10px;
+}
+.single-introduction-text a{
+    text-decoration: none;
+    color:#44AD9A;
+}

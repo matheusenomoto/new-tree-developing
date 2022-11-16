@@ -1,0 +1,16 @@
+.technologies-portfolio-single{
+    text-align: center;
+}
+.technologies-portfolio-single-img{
+    width: 70%;
+    max-width: 70%;
+    height: auto;
+    max-height: 70%;
+}
+
+@media screen and (max-width: 768px){
+    .main-header-to.technologies-portfolio-single-img{
+      width: 300px;
+    }
+
+}

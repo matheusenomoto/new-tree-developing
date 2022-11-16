@@ -8,7 +8,7 @@ import {treedeveloping, instagramicon, facebookicon, playstoredeveloper} from '.
 function Header() {
   return (
     <div class='main-header-top'>
-    <a href='https://treedeveloping.com/' class='main-header-logo-link'><img class='main-header-logo'src={treedeveloping}/></a>
+    <a class='main-header-logo-link' href='/'><img class='main-header-logo'src={treedeveloping}/></a>
     <h1 class='main-header-company-name'>{companyName}</h1>
     <div class='social-midia-link'>
       <a href={instagramUrl} target="_blank"><img class='social-midia-link-icon' src={instagramicon}/></a>

@@ -19,7 +19,16 @@ import businessdevelopmentsolutions from './businessdevelopmentsolutions.jpg';
 import homebusiness from './image01.webp';
 import htmlimage from './htmlimage.jpg';
 
-export{
+//portfolio
+import owlmonicon from './owlmonicon.png'
+import googleplayicon from './googleplayicon.png'
+import treedevelopingicon from './treedevelopingicon.png'
+import furukawatechnicalproposalconfig from './furukawatechnicalproposalconfig.png'
+import guitarchordsicon from './guitar-chords-logo-02.png';
+import mainlogonostracasa from './mainlogonostracasa.png';
+import furukawaroipreconchart from './furukawaroiprecon.png';
+
+export {
     treedeveloping,
     appstoreicon,
     facebookicon,
@@ -30,7 +39,14 @@ export{
     businessdevelopmentsolutions,
     technologies,
     homebusiness,
-    htmlimage
+    htmlimage,
+    owlmonicon,
+    googleplayicon,
+    treedevelopingicon,
+    furukawatechnicalproposalconfig,
+    guitarchordsicon,
+    mainlogonostracasa,
+    furukawaroipreconchart,
 };
 
 

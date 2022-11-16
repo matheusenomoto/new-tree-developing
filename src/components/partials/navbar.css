@@ -1,19 +1,28 @@
+.main-header-bottom {
+  background-color: #44AD9A;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+}
 .main-header-nav-bar {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
   
 .main-header-nav-button {
-background-color: black;
 margin: 1%;
 border-radius: 5px;
 text-align: center;
 padding-top: 0.2%;
 padding-bottom: 0.2%;
-;
 }
   
 .main-header-nav-button-text {
-color: white;
+color: black;
+font-weight: bold;
 padding: 10px;
+}
+
+.main-header-nav-button-text:hover {
+  color: white;
 }
