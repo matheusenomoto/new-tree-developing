@@ -16,7 +16,7 @@ import playstoredeveloper from './playstoredeveloper.png';
 //
 import businessdevelopmentdata from './businessdevelopmentdata.jpg';
 import businessdevelopmentsolutions from './businessdevelopmentsolutions.jpg';
-import homebusiness from './image01.webp';
+import homebusiness from './image01.png';
 import htmlimage from './htmlimage.jpg';
 
 //portfolio
